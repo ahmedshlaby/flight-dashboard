@@ -7,10 +7,11 @@ import plotly.express as px
 st.set_page_config(page_title="Airport Analysis", page_icon="🛫", layout="wide")
 st.title("🛫 Airport Analysis")
 
-# Load data
+# Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Flight_Canselled_Delay_C.csv", parse_dates=["fl_date"])
+    url = "https://www.dropbox.com/scl/fi/cdrfwk27h6sszbqg2k82b/Flight_Canselled_Delay_C.csv?rlkey=0nnticgct444wwqqjk50ctov4&st=aazxpeja&dl=1"
+    df = pd.read_csv(url, parse_dates=["fl_date"])
     return df
 
 df = load_data()
