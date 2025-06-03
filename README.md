@@ -69,7 +69,7 @@ streamlit run Home.py
 ## 👨‍💻 About Me
 **Ahmed Ahmed Mohamed Shlaby**  
 📧 [shalabyahmed299@gmail.com](mailto:shalabyahmed299@gmail.com)  
-💼 [LinkedIn Profile](https://www.linkedin.com/in/ahmedshlaby)  
+💼 [LinkedIn Profile](https://www.linkedin.com/in/ahmed-shlaby22/)
 📁 [GitHub Profile](https://github.com/ahmedshlaby)
 
 ⭐ If you like this project, give it a star to support the work!
